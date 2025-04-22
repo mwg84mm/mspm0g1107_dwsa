@@ -1,8 +1,10 @@
-"./empty_mspm0g1107.o"
+"./mspm0g1107_dwsa.o"
 "./syscfg/ti_msp_dl_config.o"
 "./startup_mspm0g110x_ticlang.o"
+"./app/I2C_communication.o"
 "./app/app.o"
-"./app/uart.o"
+"./app/dwsa_i2c.o"
+"./app/dwsa_uart.o"
 -l"syscfg/device_linker.cmd"
 -ldevice.cmd.genlibs
 -llibc.a

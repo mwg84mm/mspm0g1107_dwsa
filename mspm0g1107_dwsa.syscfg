@@ -13,6 +13,8 @@ const ADC12         = scripting.addModule("/ti/driverlib/ADC12", {}, false);
 const ADC121        = ADC12.addInstance();
 const GPIO          = scripting.addModule("/ti/driverlib/GPIO", {}, false);
 const GPIO1         = GPIO.addInstance();
+const I2C           = scripting.addModule("/ti/driverlib/I2C", {}, false);
+const I2C1          = I2C.addInstance();
 const SYSCTL        = scripting.addModule("/ti/driverlib/SYSCTL");
 const TIMER         = scripting.addModule("/ti/driverlib/TIMER", {}, false);
 const TIMER1        = TIMER.addInstance();
@@ -48,7 +50,13 @@ GPIO1.associatedPins[0].initialValue = "SET";
 GPIO1.associatedPins[0].pin.$assign  = "PA16";
 GPIO1.associatedPins[1].$name        = "HALL_EN";
 GPIO1.associatedPins[1].assignedPin  = "23";
+GPIO1.associatedPins[1].initialValue = "SET";
 GPIO1.associatedPins[1].pin.$assign  = "PA23";
+
+I2C1.$name                 = "I2C_0";
+I2C1.basicEnableController = true;
+I2C1.sdaPinConfig.$name    = "ti_driverlib_gpio_GPIOPinGeneric4";
+I2C1.sclPinConfig.$name    = "ti_driverlib_gpio_GPIOPinGeneric5";
 
 SYSCTL.peripheral.$assign = "SYSCTL";
 
@@ -81,4 +89,7 @@ ProjectConfig.migrationCondition = true;
  */
 ADC121.peripheral.adcPin0.$suggestSolution = "PA27";
 ADC121.peripheral.adcPin1.$suggestSolution = "PA26";
+I2C1.peripheral.$suggestSolution           = "I2C0";
+I2C1.peripheral.sdaPin.$suggestSolution    = "PA10";
+I2C1.peripheral.sclPin.$suggestSolution    = "PA11";
 TIMER2.peripheral.$suggestSolution         = "TIMA1";

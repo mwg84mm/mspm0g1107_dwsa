@@ -50,11 +50,13 @@ void app_init(void)
 //ADC0 init
     NVIC_EnableIRQ(ADC12_0_INST_INT_IRQN);
 
-
     led_cntr = 0;
     hall_cntr = 0;
 
     uart_init();
+
+    dwsa_i2c_init();
+
 }
 
 // if |val1 - val2| > limit then res = 1, else res = 0
@@ -86,7 +88,7 @@ void app_loop(void)
             if (++hall_cntr == HALL_CNTR)
             {
                 hall_cntr = 0;
-                DL_GPIO_setPins(GPIO_GRP_0_PORT, GPIO_GRP_0_HALL_EN_PIN );
+                DL_GPIO_clearPins(GPIO_GRP_0_PORT, GPIO_GRP_0_HALL_EN_PIN );
 
                 NVIC_EnableIRQ(TIMER_1_INST_INT_IRQN);
                 DL_TimerA_startCounter(TIMER_1_INST);
@@ -105,7 +107,7 @@ void app_loop(void)
             F_ADC0 = 0; F_ADC1 = 0;
             DL_ADC12_enableConversions(ADC12_0_INST);
             
-            DL_GPIO_clearPins(GPIO_GRP_0_PORT, GPIO_GRP_0_HALL_EN_PIN );
+            DL_GPIO_setPins(GPIO_GRP_0_PORT, GPIO_GRP_0_HALL_EN_PIN );
             if (F_DATAOUT)      uart_on();
 
             if (F_ARMED == 1)

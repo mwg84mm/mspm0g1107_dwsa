@@ -12,20 +12,20 @@ SHELL = cmd.exe
 	@echo 'Finished building: "$<"'
 	@echo ' '
 
-build-65351521: ../empty_mspm0g1107.syscfg
+build-876255393: ../mspm0g1107_dwsa.syscfg
 	@echo 'Building file: "$<"'
 	@echo 'Invoking: SysConfig'
-	"C:/ti/sysconfig_1.22.0/sysconfig_cli.bat" --script "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/empty_mspm0g1107.syscfg" -o "syscfg" -s "C:/ti/mspm0_sdk_2_04_00_06/.metadata/product.json" --compiler ticlang
+	"C:/ti/sysconfig_1.22.0/sysconfig_cli.bat" --script "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/mspm0g1107_dwsa.syscfg" -o "syscfg" -s "C:/ti/mspm0_sdk_2_04_00_06/.metadata/product.json" --compiler ticlang
 	@echo 'Finished building: "$<"'
 	@echo ' '
 
-syscfg/device_linker.cmd: build-65351521 ../empty_mspm0g1107.syscfg
-syscfg/device.opt: build-65351521
-syscfg/device.cmd.genlibs: build-65351521
-syscfg/ti_msp_dl_config.c: build-65351521
-syscfg/ti_msp_dl_config.h: build-65351521
-syscfg/Event.dot: build-65351521
-syscfg: build-65351521
+syscfg/device_linker.cmd: build-876255393 ../mspm0g1107_dwsa.syscfg
+syscfg/device.opt: build-876255393
+syscfg/device.cmd.genlibs: build-876255393
+syscfg/ti_msp_dl_config.c: build-876255393
+syscfg/ti_msp_dl_config.h: build-876255393
+syscfg/Event.dot: build-876255393
+syscfg: build-876255393
 
 syscfg/%.o: ./syscfg/%.c $(GEN_OPTS) | $(GEN_FILES) $(GEN_MISC_FILES)
 	@echo 'Building file: "$<"'

@@ -1,4 +1,4 @@
-#include "uart.h"
+#include "dwsa_uart.h"
 #include "app.h"
 #include <stdio.h>
 

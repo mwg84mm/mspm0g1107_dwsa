@@ -1,6 +1,6 @@
 # FIXED
 
-empty_mspm0g1107.o: ../empty_mspm0g1107.c \
+mspm0g1107_dwsa.o: ../mspm0g1107_dwsa.c \
  syscfg/ti_msp_dl_config.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/DeviceFamily.h \
@@ -68,7 +68,7 @@ empty_mspm0g1107.o: ../empty_mspm0g1107.c \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h \
- ../app/app.h ../app/uart.h
+ ../app/app.h ../app/dwsa_uart.h ../app/dwsa_i2c.h
 syscfg/ti_msp_dl_config.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/DeviceFamily.h:
@@ -137,4 +137,5 @@ C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h:
 ../app/app.h:
-../app/uart.h:
+../app/dwsa_uart.h:
+../app/dwsa_i2c.h:

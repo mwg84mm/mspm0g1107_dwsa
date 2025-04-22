@@ -1,6 +1,6 @@
 # FIXED
 
-app/app.o: ../app/app.c ../app/app.h \
+app/dwsa_i2c.o: ../app/dwsa_i2c.c ../app/dwsa_i2c.h \
  syscfg/ti_msp_dl_config.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/DeviceFamily.h \
@@ -68,8 +68,8 @@ app/app.o: ../app/app.c ../app/app.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h \
  C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h \
- ../app/dwsa_uart.h ../app/dwsa_i2c.h
-../app/app.h:
+ ../app/app.h ../app/dwsa_uart.h ../app/I2C_communication.h
+../app/dwsa_i2c.h:
 syscfg/ti_msp_dl_config.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/msp/msp.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/devices/DeviceFamily.h:
@@ -137,5 +137,6 @@ C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_vref.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/dl_wwdt.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_interrupt.h:
 C:/ti/mspm0_sdk_2_04_00_06/source/ti/driverlib/m0p/dl_systick.h:
+../app/app.h:
 ../app/dwsa_uart.h:
-../app/dwsa_i2c.h:
+../app/I2C_communication.h:

@@ -10,11 +10,13 @@ GEN_OPTS__FLAG := @"syscfg/device.opt"
 GEN_CMDS__FLAG := -Wl,-l"syscfg/device_linker.cmd" 
 
 ORDERED_OBJS += \
-"./empty_mspm0g1107.o" \
+"./mspm0g1107_dwsa.o" \
 "./syscfg/ti_msp_dl_config.o" \
 "./startup_mspm0g110x_ticlang.o" \
+"./app/I2C_communication.o" \
 "./app/app.o" \
-"./app/uart.o" \
+"./app/dwsa_i2c.o" \
+"./app/dwsa_uart.o" \
 $(GEN_CMDS__FLAG) \
 -Wl,-ldevice.cmd.genlibs \
 -Wl,-llibc.a \
@@ -147,8 +149,8 @@ mspm0g1107_dwsa.out: $(OBJS) $(GEN_CMDS)
 # Other Targets
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "empty_mspm0g1107.o" "syscfg\ti_msp_dl_config.o" "startup_mspm0g110x_ticlang.o" "app\app.o" "app\uart.o" 
-	-$(RM) "empty_mspm0g1107.d" "syscfg\ti_msp_dl_config.d" "startup_mspm0g110x_ticlang.d" "app\app.d" "app\uart.d" 
+	-$(RM) "mspm0g1107_dwsa.o" "syscfg\ti_msp_dl_config.o" "startup_mspm0g110x_ticlang.o" "app\I2C_communication.o" "app\app.o" "app\dwsa_i2c.o" "app\dwsa_uart.o" 
+	-$(RM) "mspm0g1107_dwsa.d" "syscfg\ti_msp_dl_config.d" "startup_mspm0g110x_ticlang.d" "app\I2C_communication.d" "app\app.d" "app\dwsa_i2c.d" "app\dwsa_uart.d" 
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
 	-@echo 'Finished clean'
 	-@echo ' '

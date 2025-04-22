@@ -6,7 +6,8 @@
 
 #include "ti_msp_dl_config.h"
 
-#include "uart.h"
+#include "dwsa_uart.h"
+#include "dwsa_i2c.h"
 
 struct bitno { 
    unsigned b0 : 1;

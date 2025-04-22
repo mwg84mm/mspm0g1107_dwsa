@@ -2,21 +2,31 @@
    {
       "directory" : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug",
       "command"   : "clang++ -D__MSPM0G1107__ -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg\"",
-      "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/empty_mspm0g1107.c"
-   },
-   {
-      "directory" : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug",
-      "command"   : "clang++ -D__MSPM0G1107__ -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg\"",
       "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/app/app.c"
    },
    {
       "directory" : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug",
       "command"   : "clang++ -D__MSPM0G1107__ -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg\"",
-      "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/app/uart.c"
+      "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/app/dwsa_i2c.c"
+   },
+   {
+      "directory" : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug",
+      "command"   : "clang++ -D__MSPM0G1107__ -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg\"",
+      "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/app/dwsa_uart.c"
+   },
+   {
+      "directory" : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug",
+      "command"   : "clang++ -D__MSPM0G1107__ -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg\"",
+      "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/mspm0g1107_dwsa.c"
    },
    {
       "directory" : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug",
       "command"   : "clang++ -D__MSPM0G1107__ -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg\"",
       "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg/ti_msp_dl_config.c"
+   },
+   {
+      "directory" : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug",
+      "command"   : "clang++ -D__MSPM0G1107__ -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source/third_party/CMSIS/Core/Include\" -I\"C:/ti/mspm0_sdk_2_04_00_06/source\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c++/v1\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/lib/clang/18/include\" -isystem\"C:/ti/ccstheia151/ccs/tools/compiler/ti-cgt-armllvm_4.0.0.LTS/include/c\" -I\"C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/Debug/syscfg\"",
+      "file"      : "C:/Users/morusima/workspace_ccstheia/mspm0g1107_dwsa/app/I2C_communication.c"
    }
 ]
